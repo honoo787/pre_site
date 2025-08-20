@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>各務原みかん農園</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+    <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header-->
+    <header class="header">
+        <div class="header-container w-container">
+            <div class="site">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="各務原みかん農園" width="112" height="112">
+                </a>
+            </div>
+            <button class="navbtn" onClick="document.querySelector('html').classList.toggle('open')">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+                <span class="sr-only">MENU</span>
+            </button>
+
+            <!-- nav -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="index.html#about">農園のこと</a></li>
+                    <li><a href="goods.html">オンラインショップ</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- first view -->
+    <section class="hero">
+        <div class="scroll-infinity">
+            <div class="scroll-infinity__wrap">
+                <ul class="scroll-infinity__list scroll-infinity__list--left">
+                    <li class="scroll-infinity__item"><img src="images/sono1.png" /></li>
+                    <li class="scroll-infinity__item"><img src="images/sono2.png" /></li>
+                    <li class="scroll-infinity__item"><img src="images/sono3.png" /></li>
+                </ul>
+                <ul class="scroll-infinity__list scroll-infinity__list--left">
+                    <li class="scroll-infinity__item"><img src="images/sono1.png" /></li>
+                    <li class="scroll-infinity__item"><img src="images/sono2.png" /></li>
+                    <li class="scroll-infinity__item"><img src="images/sono3.png" /></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-container">
+            <p><img src="images/logo_yoko.png" alt="各務原みかん農園"></p>
+            <a href="goods.html" class="btn">オンラインショップへ</a>
+        </div>
+    </section>
+
+    <!-- about page -->
+    <section class="about" id="about">
+        <div class="about-container w-container">
+            <div class="header-set">
+                <h1 class="h1-img"><img src="images/nouen.png" alt=""></h1>
+                <p>各務原農園では、岐阜県の温暖な気候と良質な土壌を活かし、みかんづくりを極めたみかん専門の農家です</p>
+            </div>
+            <section class="about-text">
+                <div class="about-text-container w-container">
+                    <p class="radius-text">各務原みかん農園では長年の研究を重ね、良質な土壌を作ってきました。各務原みかんの果肉の甘さは土が”いのち”です！</p>
+                    <img src="images/sono1.png" alt="農園の特徴1" width="560" height="420">
+                </div>
+            </section>
+            <section class="about-text">
+                <div class="about-text-container reverse w-container">
+                    <p class="radius-text">形、色、味にこだわりがある各務原みかん。その上品さから、贈り物にも選ばれ続けています。</p>
+                    <img src="images/sono2.png" alt="農園の特徴2" width="560" height="420">
+                </div>
+            </section>
+            <section class="about-text">
+                <div class="about-text-container w-container">
+                    <p class="radius-text">みかんがだーい好きな一族が一生懸命つくっています。息子は脱サラしてみかんづくり一筋！</p>
+                    <img src="images/sono3.png" alt="農園の特徴3" width="560" height="420">
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- banner -->
+    <section class="banner">
+        <a href=""><img src="images/mikanz_gari.png" alt="ミカン農園特設サイト" width="560" height="420"></a>
+    </section>
+
+    <!-- infomation -->
+    <section class="information">
+        <div class="info-container">
+            <div class="header-set">
+                <h1 class="h1-img"><img src="images/info.png" alt=""></h1>
+                <p>農家のニュースを更新中！<br>
+                    みかん狩りの開始時期や、みかんの販売時期はこちらのホームページでお知らせします</p>
+            </div>
+            <div class="time-set">
+                <li><time datetime="2015-09-20">2025年10月20日</time>
+                    <a href="#">
+                        <p>冬季限定みかんの量り売りがはじまります</p>
+                    </a>
+                </li>
+                <li><time datetime="2015-09-18">2025年09月18日</time>
+                    <a href="#">
+                        <p>オンラインストア「ミカンジャム」の販売がスタートしました。</p>
+                    </a>
+                </li>
+                <li><time datetime="2015-09-13">2025年09月13日</time>
+                    <a href="#">
+                        <p>各務原農園の公式ホームページがリニューアルしました！</p>
+                    </a>
+                </li>
+            </div>
+            <a href="#" class="btn">もっと見る</a>
+        </div>
+    </section>
+
+    <!-- shopping -->
+    <section class="shopping">
+        <div class="shop-container w-container">
+            <h1 class="h1-img"><img src="images/shop.png" alt=""></h1>
+            <a href="goods.html"><img src="images/onlinestore.jpg" alt="オンラインショップ" width="720" height="540"></a>
+            <a href="goods.html"><img src="images/goods.jpg" alt="商品紹介" width="720" height="140"></a>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="header-set">
+                <h1 class="h1-img"><img src="images/contact.png" alt=""></h1>
+                <p>各務原農園へのお問い合わせは、ホームページのお問い合わせフォーム、またはお電話より承っております。みかんの定期配送などのご相談も可能です！
+            </div>
+
+            <div class="contact-set-box w-container">
+                <div class="contact-box1">
+                    <h2 class="contact-title">電話でのお問い合わせ</h2>
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone" style="color: #DC9636;"></i>
+                        <p>072-333-0000</p>
+                    </div>
+                    <p>営業時間：8:00~16:00 (日・祝除く)</p>
+                </div>
+
+                <div class="contact-box2">
+                    <h2 class="contact-title">WEBフォームからの<br>お問い合わせ</h2>
+                    <p>営業日2~3日以内返信いたします。</p>
+                    <a href="contact.html" class="accent">お問い合わせフォームはこちら</a>
+                </div>
+
+                <div class="contact-box3">
+                    <h2 class="contact-title">農園までのアクセス</h2>
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-house" style="color: #DC9636;"></i>
+                        <p>岐阜県各務原市1-23</p>
+                    </div>
+                    <p>かがみ線「原見」駅より、徒歩3分「またら停留所」市バス乗車、「農園入り口」下車（所要時間15分）目の前に農園があります。</p>
+                    <figure>
+                        <p>MAP</p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-container w-container">
+            <div class="footer-site">
+                <a href="index.html">
+                    <img src="images/logo_yoko.png" alt="各務原みかん農園" width="300" height="70">
+                </a>
+            </div>
+
+            <ul class="footer-sns">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer-menu">
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="index.html#about">農園のこと</a></li>
+                <li><a href="goods.html">オンラインショップ</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                @ 2025 Kagamihara farm
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
