@@ -66,7 +66,6 @@ a:hover {
 }
 
 
-
 img {
 	display: block;
 	max-width: 100%;
@@ -536,7 +535,7 @@ section .contact-container {
 /* フッター */
 .footer {
 	padding: 70px 0;
-	background-color: #FFF0E8;
+	background-color: #fffaf7;
 	color: #707070;
 	font-size: 13px;
 }
@@ -550,6 +549,10 @@ section .contact-container {
 	display: grid;
 	gap: 50px;
 	justify-items: center;
+}
+
+.footer-menu li a:hover {
+	text-decoration: underline;
 }
 
 @media (min-width: 768px) {
@@ -632,7 +635,7 @@ section .contact-container {
 	>p {
 		margin-top: 50px;
 		margin-left: -30px;
-		width: 30%;
+		width: 25%;
 		font-size: 0.9em;
 	}
 }
@@ -640,7 +643,7 @@ section .contact-container {
 .goods-page {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 32px 25px;
+	gap: 32px 20px;
 	margin-top: 30px;
 }
 
@@ -667,6 +670,10 @@ section .contact-container {
 	gap: 40px;
 	align-items: center;
 	justify-content: center;
+}
+
+.post figure img{
+	filter: drop-shadow(2px 2px 2px #efe2cd);
 }
 
 .post h3 {
